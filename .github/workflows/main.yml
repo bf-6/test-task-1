@@ -21,10 +21,10 @@ jobs:
           gradle-version: 8.9
           arguments: build
       - name: Publish code coverage
-        uses: paambaati/codeclimate-action@v8.0.0
-        env:
-          CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
-          JACOCO_SOURCE_PATH: src/main/java
+                - uses: qltysh/qlty-action/coverage@main
+                with:
+                  coverage-token: {{secrets.QLTY_COVERAGE_TOKEN}}
+                  files: reports/coverage.xml
         with:
           coverageCommand: make report
           coverageLocations: ${{github.workspace}}/build/reports/jacoco/test/jacocoTestReport.xml:jacoco

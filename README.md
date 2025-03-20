@@ -1,13 +1,13 @@
 ## Описание
 
-Данное репозиторий представляет собой решение [тестового задания](https://github.com/avito-tech/auto-backend-trainee-assignment?tab=readme-ov-file)
+Данный репозиторий представляет собой решение [тестового задания](https://github.com/avito-tech/auto-backend-trainee-assignment?tab=readme-ov-file)
 
 Нужно было сделать HTTP сервис для сокращения URL наподобие [Bitly](https://bitly.com/) и других сервисов.
 ## Linter status:
 
 [![Java CI](https://github.com/bf-6/test-task-1/actions/workflows/main.yml/badge.svg)](https://github.com/bf-6/test-task-1/actions/workflows/main.yml)
-[![Maintainability](https://api.codeclimate.com/v1/badges/327f8a667b29e0e4af79/maintainability)](https://codeclimate.com/github/bf-6/test-task-1/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/327f8a667b29e0e4af79/test_coverage)](https://codeclimate.com/github/bf-6/test-task-1/test_coverage)
+[![Maintainability](https://qlty.sh/badges/3c249826-26f9-46f0-b8e3-df17adf5db6c/maintainability.svg)](https://qlty.sh/gh/bf-6/projects/test-task-1)
+[![Code Coverage](https://qlty.sh/badges/3c249826-26f9-46f0-b8e3-df17adf5db6c/test_coverage.svg)](https://qlty.sh/gh/bf-6/projects/test-task-1)
 
 ## Инструкции
 
