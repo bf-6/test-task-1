@@ -24,6 +24,4 @@ jobs:
         uses: qltysh/qlty-action/coverage@main
         with:
           coverage-token: ${{secrets.QLTY_COVERAGE_TOKEN}}
-          JACOCO_SOURCE_PATH: src/main/java
-          coverageCommand: make report
-          coverageLocations: ${{github.workspace}}/build/reports/jacoco/test/jacocoTestReport.xml:jacoco
+          files: /build/reports/jacoco/test/jacocoTestReport.xml
